@@ -8,7 +8,7 @@ function checkSubmit(event) {
   } = event.currentTarget;
 
   if (email.value === "" || password.value === "") {
-    return alert("Please fill in all fields");
+    return alert("Будь ласка, заповніть всі поля!");
   }
 
   const result = { email: email.value, password: password.value };
